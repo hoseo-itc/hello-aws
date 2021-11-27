@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    default: "local"
+---
+spring:
+  profiles:
+    active: "stage"
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+!!
